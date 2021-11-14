@@ -9,7 +9,7 @@ Term project on "Flood Frequency Analysis" for the "Water Resources in Changing 
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/15319503/141701862-c332913a-7072-4b11-a07a-7b6d8edbc505.png">
   <br>
-    <em>Figure 1: Map of USGS gauge stations on Pearl river</em>
+    <em>Figure 1: Map of gauge stations locations on Pearl river</em>
 </p>
 
 
