@@ -43,3 +43,11 @@ We used following probability distributions for modelling annual maxima streamfl
 - Gumbel distribution
 - Weibull distribution
 - Exponential distribution
+
+### Estimation methods
+
+Maximum likelihood, ordinary moments and probability weighted moments (or L-moments) are widely used methods in frequency analysis to estimate parameters of the distributions that are also selected for this study.
+
+- Maximum Likelihood Estimation (MLE)
+- Method of Moments (MOM)
+- Probability Weighted Moments (PWM)
