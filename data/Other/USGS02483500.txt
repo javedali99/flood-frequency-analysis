@@ -1,0 +1,119 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-03-02 13:37:10 EST
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02483500 PEARL RIVER NR LENA, MS
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02483500	1902-03-00		73000	7,Bd	30.40	Bd	1874				
+USGS	02483500	1937-01-25		17000	2							
+USGS	02483500	1938-04-09		31700		27.20						
+USGS	02483500	1939-02-09		14700		22.60						
+USGS	02483500	1940-07-12		24700		26.20						
+USGS	02483500	1940-12-20		8900		19.00						
+USGS	02483500	1942-03-24		5500		15.80						
+USGS	02483500	1943-03-24		17600		24.00						
+USGS	02483500	1944-03-31		43700		28.28						
+USGS	02483500	1945-02-24		35200		27.30						
+USGS	02483500	1946-02-14		38700		27.80						
+USGS	02483500	1947-01-22		22300		25.30						
+USGS	02483500	1948-03-08		20600		24.90						
+USGS	02483500	1948-11-30		36900		27.60						
+USGS	02483500	1950-01-08		46500		28.56						
+USGS	02483500	1951-03-31		41500		28.10						
+USGS	02483500	1952-03-14		4990		14.40						
+USGS	02483500	1953-05-07		20200		24.78						
+USGS	02483500	1961-12-20		49600	7	28.86						
+USGS	02483500	1974-04-00		35000	7,Bd	27.39	Bd					
+USGS	02483500	1979-04-17		122000	7	32.20		1874				
+USGS	02483500	1983-05-25		83200	7	30.59		1979				
+USGS	02483500	1995-04-25		25100		24.67						
+USGS	02483500	1996-01-29		24700		24.60						
+USGS	02483500	1997-04-30		17700		22.26						
+USGS	02483500	1998-01-25		19000		22.90						
+USGS	02483500	1999-02-02		27200		24.97						
+USGS	02483500	2000-04-07		22800		24.23						
+USGS	02483500	2001-04-07		23700		24.44						
+USGS	02483500	2002-09-29		13700		20.02						
+USGS	02483500	2003-04-09		46400		27.63						
+USGS	02483500	2004-02-08		27500		25.07						
+USGS	02483500	2004-12-12		20400		23.63						
+USGS	02483500	2006-02-28		17400		22.63						
+USGS	02483500	2007-01-06		10900		18.44						
+USGS	02483500	2008-02-26		10100		17.75						
+USGS	02483500	2008-12-15		22700		24.20						
+USGS	02483500	2009-10-16	22:45	16300		22.12						
+USGS	02483500	2011-09-07	13:30	35000		26.22						
+USGS	02483500	2012-03-25	17:45	20100		23.55						
+USGS	02483500	2013-01-20	04:00	27700		25.11						
+USGS	02483500	2014-04-09	11:00	40400		26.93						
+USGS	02483500	2015-02-27	20:00	11400		18.75						
+USGS	02483500	2016-03-13	21:45	36800		26.36						
+USGS	02483500	2017-04-05	16:45	30100		25.49						
