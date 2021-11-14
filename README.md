@@ -46,7 +46,7 @@ We used following probability distributions for modelling annual maxima streamfl
 
 ### Estimation methods
 
-Maximum likelihood, ordinary moments and probability weighted moments (or L-moments) are widely used methods in frequency analysis to estimate parameters of the distributions that are also selected for this study.
+We selected following methods for estimating parameters of the distributions for this study: 
 
 - Maximum Likelihood Estimation (MLE)
 - Method of Moments (MOM)
