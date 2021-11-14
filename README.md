@@ -1,3 +1,3 @@
-# Flood Frequency Analysis using Streamflow Data
+# Flood frequency analysis of annual maximum time series
 
 
