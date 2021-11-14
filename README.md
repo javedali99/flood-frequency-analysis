@@ -15,7 +15,7 @@ Term project on "Flood Frequency Analysis" for the "Water Resources in Changing 
 
 <div align="center">
 
-*Table: Stations information*
+*Table: USGS gauge stations information*
 
 |Station name | USGS Code |
 |:-------: | :--------:  |
