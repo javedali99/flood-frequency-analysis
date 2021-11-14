@@ -2,5 +2,13 @@
 
 Term project on "Flood Frequency Analysis" for the "Water Resources in Changing Environment" class at the [Department of Civil, Environmental and Construction Engineering](https://www.cece.ucf.edu/) of [University of Central Florida](https://www.ucf.edu/).  
 
+### Data source
+- [U.S. Geological Survey's (USGS) National Water Information System](https://nwis.waterdata.usgs.gov/usa/nwis/peak).
+- Peak discharge data for 8 gauging stations on Pearl river, Mississippi were selected for the flood frequency analysis. Following map shows all locations.
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/15319503/141701862-c332913a-7072-4b11-a07a-7b6d8edbc505.png">
+</p>
+
 
 
