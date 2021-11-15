@@ -1,5 +1,5 @@
 library(shiny)
-source('fitting.R')
+source('fitting-dist.R')
 source('combined-plots.R')
 
 # Define UI for application that draws a histogram
@@ -52,15 +52,15 @@ ui <- navbarPage("Term Project: Flood Frequency Analysis",
                       c("Maximum Likelihood (MLE)" = "mle", 
                         "Method of Moments (MOM)" = "mme", 
                         "Probablity weighted moments (PWM)" = "pwme")),
-              h5("RMSE:"),
+              h5("Root-Mean-Square Error (RMSE):"),
               uiOutput('rmse'),
-              h5("K-S:"),
+              h5("Kolmogorov-Smirnov test (K-S):"),
               uiOutput('ks'),
-              h5("A-D:"),
+              h5("Anderson-Darling test (A-D):"),
               uiOutput('ad'),
-              h5("AIC:"),
+              h5("Akaike Information Criterion (AIC):"),
               uiOutput('aic'),
-              h5("BIC:"),
+              h5("Bayesian Information Criterion (BIC):"),
               uiOutput('bic'),
               h5("Parameters (and their standard errors)"),
               verbatimTextOutput('params')

@@ -1,6 +1,9 @@
 # Author: Javed Ali
 
-source('fitting.R')
+source('fitting-dist.R')
+
+# turn off scientific notation
+options(scipen = 1000)
 
 stations <- list(Jackson = "USGS02486000",
                 Edinburg = "USGS02482000",
@@ -56,8 +59,7 @@ lkurt <- numeric(nstations)
 xskew <- numeric(nstations)
 nobs <- numeric(nstations)
 
-# turn off scientific notation
-options(scipen = 1000)
+
 
 for (i in 1:nstations) {
     station <- names(stations)[i]

@@ -1,4 +1,7 @@
-source('fitting.R')
+source('fitting-dist.R')
+
+# turn off scientific notation
+options(scipen = 1000)
 
 stations <- list(Jackson = "USGS02486000",
                  Edinburg = "USGS02482000",
