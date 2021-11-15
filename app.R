@@ -75,7 +75,8 @@ ui <- navbarPage("Term Project: Flood Frequency Analysis",
      ),
   tabPanel("Compare Distributions",
      plotOutput("compare", width = "50%")
-  )
+  ),
+  tabPanel("About", includeHTML("about.html"))
 )
 
 # Define server logic required to draw a histogram
