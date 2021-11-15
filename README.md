@@ -55,6 +55,8 @@ We selected following methods for estimating parameters of the distributions for
 Goodness-of-fit tests are used to summarise the discrepancy between a statistical model and the observed data. They are useful for comparing the observed values with either the values fitted by a model of interest or theoretical quantiles of a known sampling distribution. We used following metrics for determining whether a fit is satisfactory
 or not. 
 - Root-Mean-Square Error (RMSE)
-- Kolmogorov-Smirnov (K-S) 
-- Anderson-Darling (A-D) tests
-- Akaike and Bayesian Information Criteria (AIC and BIC)
+- Kolmogorov-Smirnov test (K-S) 
+- Anderson-Darling test (A-D) 
+- Akaike Information Criterion (AIC)
+- Bayesian Information Criterion (BIC)
+- L-moment ratio diagram
