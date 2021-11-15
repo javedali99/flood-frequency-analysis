@@ -145,7 +145,7 @@ server <- function(input, output) {
     output$quantilePlot <- renderPlot({
       # q-q plot
       dataInput()
-      qqplot(aps, estim$xt, xlab="Observed peaks (cfs)", ylab="Estimated peaks (cfs)", main="Q-Q plot")
+      qqplot(aps, estim$xt, xlab="Observed peaks (cfs)", ylab="Estimated peaks (cfs)", main="Estimated vs Observed peaks")
       abline(c(0,1), col="red", lty=1, lwd=2)
       legend("topleft", legend=c("1-1 line", "Regression line", " 95% confidence band\n(based on K-S statistic)"),
              col=c("red", "grey", "grey"), lty=c(1,1,2), lwd=c(2,1,1), cex=0.95)
@@ -154,7 +154,7 @@ server <- function(input, output) {
     output$finalPlot <- renderPlot({
       # plot of estimated discharge against return period
       dataInput()
-      plot(log(return_periods), data_sorted$aps, xlab = "Return period (years)c", ylab = "Discharge (cfs)", 
+      plot(log(return_periods), data_sorted$aps, xlab = "Return period (years)", ylab = "Discharge (cfs)", 
            main = "Estimated peak discharge vs log return period", xaxt="n")
       lines(log(return_periods), estim$xt, col=2)
       at.x <- log(c(1,5,10,25,50,75,100))
