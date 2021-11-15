@@ -34,7 +34,6 @@ Term project on "Flood Frequency Analysis" for the "Water Resources in Changing 
 ### Probability distributions
 
 We used following probability distributions for modelling annual maxima streamflow time series:
-
 - Normal distribution
 - Lognormal distribution
 - Gamma distribution
@@ -47,7 +46,6 @@ We used following probability distributions for modelling annual maxima streamfl
 ### Estimation methods
 
 We selected following methods for estimating parameters of the distributions for this study: 
-
 - Maximum Likelihood Estimation (MLE)
 - Method of Moments (MOM)
 - Probability Weighted Moments (PWM)
@@ -55,8 +53,7 @@ We selected following methods for estimating parameters of the distributions for
 ### Goodness of fit tests
 
 Goodness-of-fit tests are used to summarise the discrepancy between a statistical model and the observed data. They are useful for comparing the observed values with either the values fitted by a model of interest or theoretical quantiles of a known sampling distribution. We used following metrics for determining whether a fit is satisfactory
-or not. We selected these tests to provide a variety of methods where each measures the discrepancy between the data and the model in a slightly different way.
-
+or not. 
 - Root-Mean-Square Error (RMSE)
 - Kolmogorov-Smirnov (K-S) 
 - Anderson-Darling (A-D) tests
