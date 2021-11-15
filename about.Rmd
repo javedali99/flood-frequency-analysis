@@ -28,6 +28,19 @@ This interactive web application was built using the `Shiny` package in `R` for 
     <em>Figure 1: Map of gauge stations locations on Pearl river</em>
 </p>
 
+</br>
+
+```{r table, echo=FALSE, message=FALSE, results='asis', warnings=FALSE}
+library(knitr)
+library(DT)
+library(readxl)
+library(kableExtra)
+library(gt)
+usgs_stations <- read_excel('usgs_stations.xlsx') 
+kable(usgs_stations, caption = 'Table: USGS Gauge Stations', align='c') %>%
+  kable_styling(full_width=FALSE, position='center')
+```
+
 
 
 ### Probability distributions
