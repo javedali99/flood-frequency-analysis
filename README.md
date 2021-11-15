@@ -51,3 +51,13 @@ We selected following methods for estimating parameters of the distributions for
 - Maximum Likelihood Estimation (MLE)
 - Method of Moments (MOM)
 - Probability Weighted Moments (PWM)
+
+### Goodness of fit tests
+
+Goodness-of-fit tests are used to summarise the discrepancy between a statistical model and the observed data. They are useful for comparing the observed values with either the values fitted by a model of interest or theoretical quantiles of a known sampling distribution. We used following metrics for determining whether a fit is satisfactory
+or not. We selected these tests to provide a variety of methods where each measures the discrepancy between the data and the model in a slightly different way.
+
+- Root-Mean-Square Error (RMSE)
+- Kolmogorov-Smirnov (K-S) 
+- Anderson-Darling (A-D) tests
+- Akaike and Bayesian Information Criteria (AIC and BIC)
