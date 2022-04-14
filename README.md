@@ -2,7 +2,7 @@
 
 Term project on "Flood Frequency Analysis" for "Water Resources in Changing Environment" class at [University of Central Florida](https://www.ucf.edu/).  
 
-An interactive web application was built using the `Shiny` package in `R` for showing the results of analysis: [Shiny App](https://javedali.shinyapps.io/flood-frequency-analysis/)
+An interactive web application was built using the `Shiny` package in `R` for showing the results of the analysis: [Shiny App](https://javedali.shinyapps.io/flood-frequency-analysis/)
 
 ### Data source
 - [U.S. Geological Survey's (USGS) National Water Information System](https://nwis.waterdata.usgs.gov/usa/nwis/peak).
